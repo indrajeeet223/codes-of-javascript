@@ -1,0 +1,19 @@
+// nullish coalescing operator (??):null undefined .
+
+let con;
+con=21 ?? 31;
+console.log(con);
+
+let b;
+b=null ?? 31;
+
+console.log(b);
+
+let   aab;
+aab=undefined ?? 45;
+console.log(aab);
+
+let var1;
+var1=null ?? 21 ?? 12;
+console.log(var1);
+
